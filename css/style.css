@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.score-paragraph {
+    margin: .5em 0;
+    font-size: 24px;
+}
+
+.skin-caption {
+    order: 1;
+}
+
+.skin-panel {
+    order: 1;
+    display: flex;
+}
+
+.skin-panel__tile {
+    flex: 0 0 20%;
+}
+
+.skin-panel__img {
+    display: block;
+    width: 100px;
+    height: 120px;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+.skin-panel__title {
+    margin: 0;
     text-align: center;
 }
